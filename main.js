@@ -4,6 +4,9 @@ function getFirstName(obj){
     return obj.firstName
 }
 
+function getLastName(obj){
+  return obj.lastName
+}
 
 
 
