@@ -8,6 +8,10 @@ function getLastName(obj){
   return obj.lastName
 }
 
+function getFullName(obj){
+  return `${obj.firstName} ${obj.lastName}`
+}
+
 
 
 // Our code here. Don't touch!
