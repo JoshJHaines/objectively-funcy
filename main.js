@@ -20,6 +20,15 @@ function setAge(pers, age){
   pers.age = age
 }
 
+function giveBirthday(pers){
+  if (pers.age === undefined){
+    pers.age = 1
+  } else {
+    pers.age = pers.age + 1
+  }
+}
+
+
 // Our code here. Don't touch!
 if (typeof getFirstName === "undefined") {
 	getFirstName = undefined;
