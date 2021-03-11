@@ -1,5 +1,8 @@
 // Your code here.
 
+function getFirstName(obj){
+    return obj.firstName
+}
 
 
 
