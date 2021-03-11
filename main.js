@@ -16,6 +16,10 @@ function setFirstName(obj, name) {
   obj.firstName = name
 }
 
+function setAge(pers, age){
+  pers.age = age
+}
+
 // Our code here. Don't touch!
 if (typeof getFirstName === "undefined") {
 	getFirstName = undefined;
